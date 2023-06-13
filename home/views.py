@@ -26,8 +26,7 @@ def poomse(request):
      
 def fight(request):
      return render(request,'fight.html')
-def footer(request):
-     return render(request,'footer.html')        
+     
 
 def services(request):
      return render(request,'services.html')
